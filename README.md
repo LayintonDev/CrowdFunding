@@ -1,8 +1,8 @@
-# Sample Hardhat Project
+# Crowd Funding Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project is a crowd funding smart contract writte in solidity, it allows user to create a crowdfunding, deposit to a particular crowdfunding using the id, and allows for withdrawal after the deadline has been reached. 
 
-Try running some of the following tasks:
+The project uses hardhart tools.
 
 ```shell
 npx hardhat help

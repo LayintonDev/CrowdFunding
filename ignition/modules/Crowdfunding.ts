@@ -3,7 +3,7 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const CrowdfundingModule = buildModule("CrowdfundingModule", (m) => {
 
-  const lock = m.contract("CrowdfundingModule");
+  const lock = m.contract("Crowdfunding");
 
   return { lock };
 });
