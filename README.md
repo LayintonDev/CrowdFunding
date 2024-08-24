@@ -4,10 +4,4 @@ This project is a crowd funding smart contract writte in solidity, it allows use
 
 The project uses hardhart tools.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+
