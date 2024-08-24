@@ -97,7 +97,9 @@ contract Crowdfunding {
             campaigns[_campaignId].deadline <= block.timestamp,
             "Deadline not reached"
         );
-        campaigns[_campaignId].benefactor.transfer(address(this).balance);
+        campaigns[_campaignId].benefactor.transfer(
+            campaigns[_campaignId].amountRaised
+        );
         // campaigns[_campaignId] = 0;
         fundSentToBenefactor[_campaignId] = true;
         emit CampaignEnded(_campaignId);
